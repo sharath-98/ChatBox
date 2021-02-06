@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+
+
+
+
+        <item
+
+            android:id="@+id/post"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+
+            android:title="Posts" />
+
+
+
+        <item
+
+            android:id="@+id/remainder"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Remainder" />
+
+        <item
+
+            android:id="@+id/theme"
+            android:icon="@drawable/ic_wallpaper_black_24dp"
+
+            android:title="Themes"/>
+
+        <item
+
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+
+            android:title="Camera" />
+
+        <item
+
+            android:id="@+id/about"
+            android:icon="@drawable/ic_person_black_24dp"
+
+            android:title="About" />
+
+
+
+    </group>
+
+
+
+</menu>

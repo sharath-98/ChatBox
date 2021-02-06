@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+
+        android:id="@+id/settings_image"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:src="@drawable/cars" />
+
+    <TextView
+        android:id="@+id/settings_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:layout_below="@+id/settings_image"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO CHATBOX"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:id="@+id/settings_status"
+        android:layout_below="@+id/settings_display_name"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/settings_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="change dp"
+        android:textColor="#fff"
+        android:background="@drawable/search_layout"
+        android:id="@+id/settings_image_btn"
+        />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:id="@+id/settings_status_btn"
+        android:background="@drawable/search_layout"
+        android:layout_below="@+id/settings_image_btn"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="10dp"
+        android:text="change status"
+        />
+
+</RelativeLayout>

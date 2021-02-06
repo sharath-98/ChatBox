@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_page"
+    android:background="@drawable/res1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:src="@drawable/ct"
+            android:alpha="0.8"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:id="@+id/appl"
+            />
+        <ImageView
+            android:layout_below="@id/appl"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:id="@+id/version"
+            android:src="@drawable/vers"/>
+
+
+        <TextView
+            android:layout_below="@+id/version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+
+            android:id="@+id/point3"
+            android:text="1. Posts uploaded are general and can be viewed by everyone across the globe.Kindly use it to convey events being organized and any emergency situations "/>
+
+
+        <TextView
+            android:layout_below="@+id/point3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/point4"
+            android:text=""/>
+
+
+        <TextView
+            android:layout_below="@+id/point4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="123dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+
+            android:text="Created by\n\n- Sharath Chander P\n- J.soundarya\n- Shivanni"/>
+
+    </RelativeLayout>
+
+</ScrollView>
